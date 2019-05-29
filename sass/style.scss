@@ -1,0 +1,28 @@
+/* Pliki importowane */
+@import "variables";
+@import "mixins";
+@import "normalize";
+@import "layout";
+
+/* Components */
+@import "components/sidebar";
+
+/* Sections */
+/*@import "section/registration_form";
+
+/* Pages / Views */
+/*@import "pages/registration"; */
+
+body {
+	h1 {
+		font-style: $main-font;
+		font-size: 24px;
+		font-weight: bold;
+		color: $font-grey;
+	}
+	p {
+		font-style: $main-font;
+		font-size: $paragraph-font-size;
+		color: $font-grey;
+	}
+}

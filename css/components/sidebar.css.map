@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "sidebar.css",
+	"sources": [
+		"../../sass/components/sidebar.scss"
+	],
+	"names": [],
+	"mappings": ""
+}
