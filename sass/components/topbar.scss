@@ -1,0 +1,48 @@
+@import "variables";
+
+.components-topbar {
+	width: 100%;
+	height: 80px;
+	color: $font-grey;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-content: center;
+	align-items: center;
+	border-bottom: 1px solid $font-grey;
+    .topbar-money,
+    .topbar-bell,
+    .topbar-user,
+    .topbar-exit {
+    	display: inline-flex;
+    	flex-direction: row;
+    	flex-wrap: nowrap;
+    	justify-content: center;
+    	align-content: center;
+    	align-items: center;
+    	height: 100%;
+    	border-left: 1px solid $font-grey;
+    	&:hover {
+    		color: $button-orange;
+    		cursor: pointer;
+    		background-color: $font-grey; 
+    	}
+    }
+    .topbar-money {
+		i {
+			padding: 0 10px;
+    	}
+    }
+    .topbar-bell {
+		padding: 0 10px;
+    }
+    .topbar-user {
+    	i, p {
+    		padding: 0 10px;
+    	}
+    }
+    .topbar-exit {
+    	padding: 0 10px;
+    }
+}

@@ -1,11 +1,12 @@
 /* Pliki importowane */
-@import "variables";
+@import "_variables";
 @import "mixins";
 @import "normalize";
 @import "layout";
 
 /* Components */
 @import "components/sidebar";
+@import "components/topbar";
 
 /* Sections */
 /*@import "section/registration_form";
