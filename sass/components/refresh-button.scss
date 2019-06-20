@@ -1,0 +1,30 @@
+@import "../_variables";
+
+.refresh-button {
+	width: auto;
+	height: auto;
+	margin: 10px;
+	padding: 10px;
+	color: white;
+	background-color: $button-orange;
+	border: none;
+	font-size: 24px;
+	border-radius: 5px;
+	display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    fill: #ffffff;
+    cursor: pointer;
+	svg {
+		height: 20px;
+		width: 20px;
+	}
+	&:hover {
+		fill: $button-orange;
+		border: 2px solid $button-orange;
+		background-color: #ffffff;
+	}
+}

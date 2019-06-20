@@ -1,2 +1,115 @@
+/* Colors */
+/* Fonts Size */
+/* Fonts Family */
+.components-sidebar {
+  width: 100%;
+  height: auto;
+  background-color: #191919;
+  color: #999999;
+  fill: #999999;
+  font-family: "Open Sans", sans-serif;
+}
+
+.components-sidebar .logo {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.components-sidebar .logo h1 {
+  color: white;
+  font-family: "Kalam", cursive;
+  margin: 0;
+}
+
+.components-sidebar .logo i {
+  font-size: 32px;
+}
+
+.components-sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-weight: 400;
+  position: relative;
+}
+
+.components-sidebar ul li {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.components-sidebar ul li .sidebar-list {
+  height: auto;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.components-sidebar ul li .sidebar-list svg {
+  width: auto;
+  height: 14px;
+  padding: 4px;
+}
+
+.components-sidebar ul li .sidebar-list h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.components-sidebar ul li:hover {
+  background-color: #282828;
+  color: #ffffff;
+  fill: #ffffff;
+  cursor: pointer;
+  border-left: 3px solid #f58220;
+}
+
+.components-sidebar ul:after {
+  content: "";
+  width: 100%;
+  border-bottom: 1px solid #999999;
+  position: absolute;
+}
+
+.components-sidebar .manager-list {
+  width: 100%;
+  display: inline-block;
+}
+
+.components-sidebar .manager-list h3 {
+  padding: 10px;
+  font-weight: 700;
+}
+
+.components-sidebar .manager-list .manager-list-place {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.components-sidebar .manager-list .manager-list-place img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.components-sidebar .manager-list .manager-list-place p {
+  color: #C2D2DD;
+}
+
+.components-sidebar .manager-list .manager-list-place:hover {
+  background-color: #282828;
+  color: white;
+  cursor: pointer;
+  border-left: 3px solid #f58220;
+}
 
 /*# sourceMappingURL=sidebar.css.map */

@@ -1,0 +1,35 @@
+/* Colors */
+/* Fonts Size */
+/* Fonts Family */
+.refresh-button {
+  width: auto;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  background-color: #f58220;
+  border: none;
+  font-size: 24px;
+  border-radius: 5px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  fill: #ffffff;
+  cursor: pointer;
+}
+
+.refresh-button svg {
+  height: 20px;
+  width: 20px;
+}
+
+.refresh-button:hover {
+  fill: #f58220;
+  border: 2px solid #f58220;
+  background-color: #ffffff;
+}
+
+/*# sourceMappingURL=refresh-button.css.map */

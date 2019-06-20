@@ -1,12 +1,14 @@
 /* Pliki importowane */
-@import "_variables";
-@import "mixins";
-@import "normalize";
-@import "layout";
+@import "_variables.scss";
+@import "mixins.scss";
+@import "normalize.scss";
+@import "layout.scss";
 
 /* Components */
-@import "components/sidebar";
-@import "components/topbar";
+@import "components/sidebar.scss";
+@import "components/topbar.scss";
+@import "components/refresh-button.scss";
+@import "components/text-button.scss";
 
 /* Sections */
 /*@import "section/registration_form";

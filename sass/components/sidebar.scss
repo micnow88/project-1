@@ -1,8 +1,12 @@
+@import '../_variables.scss';
+
 .components-sidebar {
 	width: 100%;
 	height: auto;
 	background-color: $background-black;
 	color: $font-sidebar-grey;
+	fill: $font-sidebar-grey;
+	font-family: $main-font;
 	.logo {
 		display: flex;
 		margin: 20px;
@@ -27,13 +31,29 @@
         	display: flex;
         	padding: 10px;
 			align-items: center;
-			i,
-			h4 {
-				margin: 5px;
-			}
+			.sidebar-list {
+				height: auto;
+				display: inline-flex;
+    			flex-direction: row;
+    			flex-wrap: nowrap;
+    			justify-content: center;
+    			align-content: center;
+    			align-items: center;
+    			svg {
+    				width: auto;
+    				height: 14px;
+    				padding: 4px;
+    			}
+    			h3 {
+    				margin: 0;
+    				font-size: 16px;
+    				font-weight: 400;
+    			}
+    		}
 			&:hover {
 				background-color: $background-black-hover;
-				color: white;
+				color: #ffffff;
+				fill: #ffffff;
 				cursor: pointer;
 				border-left: 3px solid $button-orange;
 			}
@@ -50,14 +70,20 @@
 		display: inline-block;
 		h3 {
 			padding: 10px;
+			font-weight: 700;
 		}
 		.manager-list-place {
 			padding: 10px;
 			display: flex;
 			align-items: center;
 			img {
+				width: 50px;
+				height: 50px;
 				border-radius: 50%;
 				margin: 5px;
+			}
+			p {
+				color: $font-blue;
 			}
 			&:hover {
 				background-color: $background-black-hover;

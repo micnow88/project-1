@@ -1,0 +1,57 @@
+/* Colors */
+/* Fonts Size */
+/* Fonts Family */
+.components-topbar {
+  width: 100%;
+  height: 60px;
+  color: #a6a6a6;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  border-bottom: 1px solid #a6a6a6;
+}
+
+.components-topbar .topbar-cell {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+  border-left: 1px solid #a6a6a6;
+  fill: #a6a6a6;
+}
+
+.components-topbar .topbar-cell svg {
+  height: 16px;
+  width: auto;
+}
+
+.components-topbar .topbar-cell svg,
+.components-topbar .topbar-cell h3,
+.components-topbar .topbar-cell p {
+  padding: 6px;
+  margin: 0;
+}
+
+.components-topbar .topbar-cell p {
+  color: #C2D2DD;
+  font-size: 14px;
+}
+
+.components-topbar .topbar-cell:hover {
+  fill: #f58220;
+  color: #f58220;
+  cursor: pointer;
+}
+
+.components-topbar .topbar-cell:hover p {
+  color: #f58220;
+}
+
+/*# sourceMappingURL=topbar.css.map */

@@ -1,0 +1,26 @@
+@import "../_variables";
+
+.text-button {
+	width: auto;
+	height: auto;
+	margin: 10px;
+	padding: 10px;
+	color: white;
+	background-color: $button-orange;
+	border: none;
+	font-size: 18px;
+	font-family: $main-font;
+	border-radius: 5px;
+	display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    cursor: pointer;
+	&:hover {
+		color: $button-orange;
+		border: 2px solid $button-orange;
+		background-color: #ffffff;
+	}
+}
