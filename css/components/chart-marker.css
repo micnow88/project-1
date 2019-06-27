@@ -1,0 +1,48 @@
+/* Colors */
+/* Fonts Size */
+/* Fonts Family */
+.components-chart-marker {
+  width: auto;
+  height: auto;
+  padding: 5px 10px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.components-chart-marker:hover {
+  background-color: #f3f3f1;
+}
+
+.components-chart-marker .circel-marker {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 5px;
+}
+
+.components-chart-marker .circel-marker-blue {
+  background-color: #80bfca;
+}
+
+.components-chart-marker .circel-marker-orange {
+  background-color: #fe9938;
+}
+
+.components-chart-marker .circel-marker-green {
+  background-color: #59b66d;
+}
+
+.components-chart-marker p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=chart-marker.css.map */

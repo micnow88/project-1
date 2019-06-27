@@ -1,0 +1,39 @@
+@import '../_variables.scss';
+
+.components-chart-marker {
+	width: auto;
+	height: auto;
+	padding: 5px 10px;
+	display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    border-radius: 5%;
+    cursor: pointer;
+    &:hover {
+        background-color: $background-container;
+    }
+    .circel-marker {
+    	height: 15px;
+    	width: 15px;
+    	border-radius: 50%;
+    	background-color: black;
+        margin: 5px;
+    }
+    .circel-marker-blue {
+        background-color: #80bfca;
+    }
+    .circel-marker-orange {
+        background-color: #fe9938;
+    }
+    .circel-marker-green{
+        background-color: #59b66d;
+    }
+    p {
+    	font-family: $main-font;
+    	font-size: 18px;
+        margin: 0;
+    }
+}
