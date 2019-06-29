@@ -1,0 +1,41 @@
+@import '../_variables.scss';
+
+.components-data-form {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    .data-form {
+    	padding: 5px;
+    	border: 1px solid $font-grey;
+    	border-radius: 5px;
+    	input {
+    		margin: 0 2px;
+    		border: none;
+    		font-family: $main-font;
+    		font-size: 16px;
+    		color: $background-black-hover; 
+    	}
+    	.first-date {
+    		position: relative;
+    		border-right: 1px solid $font-grey;
+    	}
+    	.date-input-button {
+    		background-color: white;
+    		border: none;
+    		cursor: pointer;
+    		svg {
+    			height: 15px;
+    			width: auto;
+    			fill: $background-black-hover;
+    		}
+    		&:hover {
+				svg {
+					fill: $button-orange;
+				}
+    		}
+    	}
+    }
+}

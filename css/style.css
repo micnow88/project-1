@@ -725,9 +725,106 @@ template {
   fill: #f58220;
 }
 
-/* Sections */
-/*@import "section/registration_form";
+/* Colors */
+/* Fonts Size */
+/* Fonts Family */
+.components-box-counter {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
 
+.components-box-counter .row-box {
+  margin: 10px 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border-bottom: 1px solid #a6a6a6;
+}
+
+.components-box-counter .row-box .text-row {
+  font-weight: 700;
+}
+
+.components-box-counter .row-box .count-row {
+  color: #191919;
+  margin-left: 200px;
+}
+
+/* Colors */
+/* Fonts Size */
+/* Fonts Family */
+.components-data-form {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.components-data-form .data-form {
+  padding: 5px;
+  border: 1px solid #a6a6a6;
+  border-radius: 5px;
+}
+
+.components-data-form .data-form input {
+  margin: 0 2px;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #282828;
+}
+
+.components-data-form .data-form .first-date {
+  position: relative;
+  border-right: 1px solid #a6a6a6;
+}
+
+.components-data-form .data-form .date-input-button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.components-data-form .data-form .date-input-button svg {
+  height: 15px;
+  width: auto;
+  fill: #282828;
+}
+
+.components-data-form .data-form .date-input-button:hover svg {
+  fill: #f58220;
+}
+
+/* Sections */
+/*@import "section/registration_form";*/
 /* Pages / Views */
 /*@import "pages/registration"; */
 body h1 {
