@@ -1,0 +1,43 @@
+/* Colors */
+/* Fonts Size */
+/* Fonts Family */
+.section-container {
+  width: 95%;
+  height: auto;
+  border: 1px solid #a6a6a6;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px #a6a6a6;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  color: #a6a6a6;
+}
+
+.section-container .container-title {
+  width: 100%;
+  border-bottom: 1px solid #a6a6a6;
+  text-transform: uppercase;
+}
+
+.section-container .container-title h2 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.section-container .button-container,
+.section-container .table-container {
+  width: 75%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=section-second-container.css.map */

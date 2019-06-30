@@ -582,11 +582,11 @@ template {
 .text-button {
   width: auto;
   height: auto;
-  margin: 10px;
+  margin: 30px 10px;
   padding: 10px;
   color: white;
   background-color: #f58220;
-  border: none;
+  border: 2px solid #f58220;
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
   border-radius: 5px;
@@ -607,7 +607,6 @@ template {
 
 .text-button:hover {
   color: #f58220;
-  border: 2px solid #f58220;
   background-color: #ffffff;
 }
 
@@ -722,6 +721,34 @@ template {
 
 .components-table tr td .table-icons svg:hover {
   fill: #f58220;
+}
+
+@media (max-width: 550px) {
+  .components-table tr {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    border-collapse: collapse;
+    border: 1px solid #a6a6a6;
+    border-left: none;
+    border-right: none;
+  }
+  .components-table tr td {
+    padding: 0 2px;
+    border: none;
+  }
+  .components-table tr td .table-icons {
+    visibility: visible;
+  }
 }
 
 /* Colors */
@@ -970,6 +997,60 @@ template {
     -ms-flex-align: center;
         align-items: center;
   }
+}
+
+/* Colors */
+/* Fonts Size */
+/* Fonts Family */
+.section-container {
+  width: 95%;
+  height: auto;
+  border: 1px solid #a6a6a6;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px #a6a6a6;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-family: "Open Sans", sans-serif;
+  color: #a6a6a6;
+}
+
+.section-container .container-title {
+  width: 100%;
+  border-bottom: 1px solid #a6a6a6;
+  text-transform: uppercase;
+}
+
+.section-container .container-title h2 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.section-container .button-container,
+.section-container .table-container {
+  width: 75%;
+  height: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
 /* Pages / Views */

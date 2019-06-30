@@ -4,11 +4,11 @@
 .text-button {
   width: auto;
   height: auto;
-  margin: 10px;
+  margin: 30px 10px;
   padding: 10px;
   color: white;
   background-color: #f58220;
-  border: none;
+  border: 2px solid #f58220;
   font-size: 18px;
   font-family: "Open Sans", sans-serif;
   border-radius: 5px;
@@ -23,7 +23,6 @@
 
 .text-button:hover {
   color: #f58220;
-  border: 2px solid #f58220;
   background-color: #ffffff;
 }
 

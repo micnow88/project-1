@@ -52,4 +52,26 @@
   fill: #f58220;
 }
 
+@media (max-width: 550px) {
+  .components-table tr {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-collapse: collapse;
+    border: 1px solid #a6a6a6;
+    border-left: none;
+    border-right: none;
+  }
+  .components-table tr td {
+    padding: 0 2px;
+    border: none;
+  }
+  .components-table tr td .table-icons {
+    visibility: visible;
+  }
+}
+
 /*# sourceMappingURL=table.css.map */

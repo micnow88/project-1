@@ -1,0 +1,38 @@
+@import "../_variables";
+
+
+.section-container {
+	width: 95%;
+	height: auto;
+	border: 1px solid $font-grey;
+	border-radius: 2px;
+	box-shadow: 2px 2px 5px $font-grey;
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    font-family: $main-font;
+    color: $font-grey;
+    .container-title {
+    	width: 100%;
+    	border-bottom: 1px solid $font-grey;
+    	text-transform: uppercase;
+    	h2 {
+    		font-size: 18px;
+    		margin-left: 10px;
+    	}
+    }
+    .button-container,
+    .table-container {
+        width: 75%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+}

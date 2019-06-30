@@ -44,3 +44,27 @@
 		}
 	}
 }
+
+@media (max-width: 550px) {
+	.components-table {
+		tr {
+			display: inline-flex;
+    		flex-direction: column;
+    		flex-wrap: nowrap;
+    		justify-content: center;
+    		align-content: center;
+    		align-items: center;
+    		border-collapse: collapse;
+    		border: 1px solid $font-grey;
+			border-left: none;
+			border-right: none;
+			td {
+				padding: 0 2px;
+				border: none;
+				.table-icons {
+    				visibility: visible;
+				}
+			}
+		}
+	}
+}
