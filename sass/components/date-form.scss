@@ -1,16 +1,17 @@
 @import '../_variables.scss';
 
 .components-data-form {
-	display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+    margin: 40px 0;
     .data-form {
     	padding: 5px;
     	border: 1px solid $font-grey;
     	border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
     	input {
     		margin: 0 2px;
     		border: none;
@@ -37,5 +38,23 @@
 				}
     		}
     	}
+    }
+}
+
+@media (max-width: 460px) {
+    .components-data-form {
+        .data-form {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            input {
+                border: 1px solid $font-grey;
+                border-radius: 2px;
+                margin: 5px 0;
+            }
+        }
     }
 }

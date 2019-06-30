@@ -1,0 +1,77 @@
+@import "../_variables";
+
+
+.section-container {
+	width: 95%;
+	height: auto;
+	border: 1px solid $font-grey;
+	border-radius: 2px;
+	box-shadow: 2px 2px 5px $font-grey;
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    font-family: $main-font;
+    color: $font-grey;
+    .container-title {
+    	width: 100%;
+    	border-bottom: 1px solid $font-grey;
+    	text-transform: uppercase;
+    	h2 {
+    		font-size: 18px;
+    		margin-left: 10px;
+    	}
+    }
+    .date-form-container {
+    	width: 100%;
+    	height: auto;
+    	display: flex;
+    	flex-direction: row;
+    	flex-wrap: nowrap;
+    	justify-content: center;
+    	align-content: center;
+    	align-items: center;
+    	border-bottom: 1px solid $font-grey;
+    }
+    .chart-container {
+    	width: 75%;
+    	.count-box-container {
+    		width: 100%;
+    		height: auto;
+    	}
+    	.chart-title {
+    		margin-top: 40px;
+    		margin-bottom: 20px;
+    	}
+    	.marker-chart-container {
+    		display: flex;
+    		flex-direction: row;
+    		flex-wrap: nowrap;
+    		justify-content: center;
+   			align-content: center;
+    		align-items: center;
+    	}
+    	.image-chart-container {
+    		width: 100%;
+    		img {
+    			width: 100%;
+    			height: auto;
+    		}
+    	}
+    }
+}
+
+@media (max-width: 460px) {
+	.section-container {
+		.date-form-container {
+			display: flex;
+    		flex-direction: column;
+    		flex-wrap: nowrap;
+    		justify-content: center;
+    		align-content: center;
+    		align-items: center;
+		}
+	}
+}

@@ -10,6 +10,7 @@
         <?xml version="1.0" encoding="utf-8"?>
     </head>
     <body>
+    	<!--
     	<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
 		<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
 		<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
@@ -28,6 +29,7 @@
 			<li>Lorem ipsum dolor <strong>sit amet</strong></li>
 			<li>Lorem ipsum dolor <strong>sit amet</strong>, consectetur <a href="#">consectetur adipiscing elit.</a>.</li>
 		</ol>
+		-->
 		<br>
 		<div class="components-sidebar">
 			<div class="logo">
@@ -140,27 +142,84 @@
 				</svg>
 			</div>
 		</div>
-		<button class="refresh-button">
-    		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 		viewBox="0 0 16 17" style="enable-background:new 0 0 16 17;" xml:space="preserve">
-				<path d="M11,6h5V1h-1v3.3l-1.2-1.1c-2.9-2.9-7.7-2.9-10.6,0c-2.9,2.9-2.9,7.7,0,10.6C4.7,15.3,6.6,16,8.5,16s3.8-0.7,5.3-2.2
-				l-0.7-0.7c-2.5,2.5-6.7,2.5-9.2,0c-2.5-2.5-2.5-6.7,0-9.2c2.5-2.5,6.7-2.5,9.2,0L14.2,5H11V6z"/>
-			</svg>
-  		</button>
+		<br><br>
+		<!-- First Section -->
+		<div class="section-container">
+			<div class="container-title">
+				<h2>General Statistic</h2>
+			</div>
+			<div class="date-form-container">
+				<div class="components-data-form">
+					<form class="data-form">
+						<input type="date" name="first_date" class="first-date">
+						<input type="date" name="second_date" class="second-date">
+						<button type="submit" class="date-input-button">
+							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x=	"0px" y=	"0px" viewBox="0 0 13 13" style="enable-background:new 0 0 13 13;" xml:space="preserve">
+								<path d="M0,0v4h13V0H0z M12,3H1V1h11V3z M0,7h3V6H0V7z M5,7h3V6H5V7z M10,7h3V6h-3V7z M0,10h3V9H0V10z 			M5,10h3V9H5V10z 	M10,10h3V9
+									h-3V10z M0,13h3v-1H0V13z M5,13h3v-1H5V13z M10,13h3v-1h-3V13z"/>
+							</svg>
+						</button>
+					</form>
+				</div>
+				<button class="refresh-button">
+    				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y=	"0px" viewBox="0 0 16 17" style="enable-background:new 0 0 16 17;" xml:space="preserve">
+						<path d="	M11,6h5V1h-1v3.3l-1.2-1.1c-2.9-2.9-7.7-2.9-10.6,0c-2.9,2.9-2.9,7.7,0,10.6C4.7,15.3,6.6,16,8.5,16s3.8-0.7,5.3-2.2
+							l-0.7-0.7c-2.5,2.5-6.7,2.5-9.2,0c-2.5-2.5-2.5-6.7,0-9.2c2.5-2.5,6.7-2.5,9.2,0L14.2,5H11V6z"/>
+					</svg>
+  				</button>	
+			</div>
+			<div class="chart-container">
+				<div class="count-box-container">
+					<div class="components-box-counter">
+						<div class="column-box">
+							<div class="row-box">
+								<p class="text-row">Visit Signups</p>
+								<p class="count-row">124</p>
+							</div>
+							<div class="row-box">
+								<p class="text-row">FTD</p>
+								<p class="count-row">445</p>
+							</div>
+						</div>
+						<div class="column-box">
+							<div class="row-box">
+								<p class="text-row">Net deposit</p>
+								<p class="count-row">564</p>
+							</div>
+							<div class="row-box">
+								<p class="text-row">Turn over</p>
+								<p class="count-row">354</p>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="chart-title">
+					<h3>Earnings chart</h3>
+				</div>
+				<div class="marker-chart-container">
+					<div class="components-chart-marker">
+						<div class="circel-marker circel-marker-blue"></div>
+						<p>Signups</p>
+					</div>
+					<div class="components-chart-marker">
+						<div class="circel-marker circel-marker-orange"></div>
+						<p>STD</p>
+					</div>
+					<div class="components-chart-marker">
+						<div class="circel-marker circel-marker-green"></div>
+						<p>Earned</p>
+					</div>	
+				</div>
+				<div class="image-chart-container">
+					<img src="images/chart.jpg">
+				</div>
+			</div>
+		</div>
+		<br><br>
+		
 		<button class="text-button">+ add new</button>
 		<br><br>
-		<div class="components-chart-marker">
-			<div class="circel-marker circel-marker-blue"></div>
-			<p>Signups</p>
-		</div>
-		<div class="components-chart-marker">
-			<div class="circel-marker circel-marker-orange"></div>
-			<p>STD</p>
-		</div>
-		<div class="components-chart-marker">
-			<div class="circel-marker circel-marker-green"></div>
-			<p>Earned</p>
-		</div>
+		
 		<br>
 		<br>
 		<table class="components-table">
@@ -232,41 +291,8 @@
 			</tr>
 		</table>
 		<br><br>
-		<div class="components-box-counter">
-			<div class="column-box">
-				<div class="row-box">
-					<p class="text-row">Visit Signups</p>
-					<p class="count-row">124</p>
-				</div>
-				<div class="row-box">
-					<p class="text-row">FTD</p>
-					<p class="count-row">445</p>
-				</div>
-			</div>
-			<div class="column-box">
-				<div class="row-box">
-					<p class="text-row">Net deposit</p>
-					<p class="count-row">564</p>
-				</div>
-				<div class="row-box">
-					<p class="text-row">Turn over</p>
-					<p class="count-row">354</p>
-				</div>
-			</div>
-		</div>
+		
 		<br>
-		<div class="components-data-form">
-			<form class="data-form">
-				<input type="date" name="first_date" class="first-date">
-				<input type="date" name="second_date" class="second-date">
-				<button type="submit" class="date-input-button">
-					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y=	"0px" viewBox="0 0 13 13" style="enable-background:new 0 0 13 13;" xml:space="preserve">
-						<path d="M0,0v4h13V0H0z M12,3H1V1h11V3z M0,7h3V6H0V7z M5,7h3V6H5V7z M10,7h3V6h-3V7z M0,10h3V9H0V10z M5,10h3V9H5V10z 	M10,10h3V9
-							h-3V10z M0,13h3v-1H0V13z M5,13h3v-1H5V13z M10,13h3v-1h-3V13z"/>
-					</svg>
-				</button>
-			</form>
-		</div>
 		<br><br>
     </body>
 </html>

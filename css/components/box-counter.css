@@ -2,17 +2,29 @@
 /* Fonts Size */
 /* Fonts Family */
 .components-box-counter {
+  width: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  margin: 20px 0;
+}
+
+.components-box-counter .column-box {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
   align-content: center;
   align-items: center;
-  font-family: "Open Sans", sans-serif;
 }
 
-.components-box-counter .row-box {
-  margin: 10px 20px;
+.components-box-counter .column-box .row-box {
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -22,13 +34,12 @@
   border-bottom: 1px solid #a6a6a6;
 }
 
-.components-box-counter .row-box .text-row {
+.components-box-counter .column-box .row-box .text-row {
   font-weight: 700;
 }
 
-.components-box-counter .row-box .count-row {
+.components-box-counter .column-box .row-box .count-row {
   color: #191919;
-  margin-left: 200px;
 }
 
 /*# sourceMappingURL=box-counter.css.map */

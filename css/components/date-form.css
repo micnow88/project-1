@@ -2,18 +2,19 @@
 /* Fonts Size */
 /* Fonts Family */
 .components-data-form {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
+  margin: 40px 0;
 }
 
 .components-data-form .data-form {
   padding: 5px;
   border: 1px solid #a6a6a6;
   border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .components-data-form .data-form input {
@@ -43,6 +44,22 @@
 
 .components-data-form .data-form .date-input-button:hover svg {
   fill: #f58220;
+}
+
+@media (max-width: 460px) {
+  .components-data-form .data-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .components-data-form .data-form input {
+    border: 1px solid #a6a6a6;
+    border-radius: 2px;
+    margin: 5px 0;
+  }
 }
 
 /*# sourceMappingURL=date-form.css.map */

@@ -547,7 +547,7 @@ template {
   padding: 10px;
   color: white;
   background-color: #f58220;
-  border: none;
+  border: 2px solid #f58220;
   font-size: 24px;
   border-radius: 5px;
   display: -ms-inline-flexbox;
@@ -567,13 +567,12 @@ template {
 }
 
 .refresh-button svg {
-  height: 20px;
-  width: 20px;
+  height: 16px;
+  width: 16px;
 }
 
 .refresh-button:hover {
   fill: #f58220;
-  border: 2px solid #f58220;
   background-color: #ffffff;
 }
 
@@ -729,10 +728,29 @@ template {
 /* Fonts Size */
 /* Fonts Family */
 .components-box-counter {
+  width: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
       flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-family: "Open Sans", sans-serif;
+  margin: 20px 0;
+}
+
+.components-box-counter .column-box {
+  width: 45%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
   -ms-flex-pack: center;
@@ -741,11 +759,10 @@ template {
       align-content: center;
   -ms-flex-align: center;
       align-items: center;
-  font-family: "Open Sans", sans-serif;
 }
 
-.components-box-counter .row-box {
-  margin: 10px 20px;
+.components-box-counter .column-box .row-box {
+  width: 100%;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -761,19 +778,25 @@ template {
   border-bottom: 1px solid #a6a6a6;
 }
 
-.components-box-counter .row-box .text-row {
+.components-box-counter .column-box .row-box .text-row {
   font-weight: 700;
 }
 
-.components-box-counter .row-box .count-row {
+.components-box-counter .column-box .row-box .count-row {
   color: #191919;
-  margin-left: 200px;
 }
 
 /* Colors */
 /* Fonts Size */
 /* Fonts Family */
 .components-data-form {
+  margin: 40px 0;
+}
+
+.components-data-form .data-form {
+  padding: 5px;
+  border: 1px solid #a6a6a6;
+  border-radius: 5px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -786,12 +809,6 @@ template {
       align-content: center;
   -ms-flex-align: center;
       align-items: center;
-}
-
-.components-data-form .data-form {
-  padding: 5px;
-  border: 1px solid #a6a6a6;
-  border-radius: 5px;
 }
 
 .components-data-form .data-form input {
@@ -823,8 +840,138 @@ template {
   fill: #f58220;
 }
 
+@media (max-width: 460px) {
+  .components-data-form .data-form {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+  .components-data-form .data-form input {
+    border: 1px solid #a6a6a6;
+    border-radius: 2px;
+    margin: 5px 0;
+  }
+}
+
 /* Sections */
-/*@import "section/registration_form";*/
+/* Colors */
+/* Fonts Size */
+/* Fonts Family */
+.section-container {
+  width: 95%;
+  height: auto;
+  border: 1px solid #a6a6a6;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px #a6a6a6;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  font-family: "Open Sans", sans-serif;
+  color: #a6a6a6;
+}
+
+.section-container .container-title {
+  width: 100%;
+  border-bottom: 1px solid #a6a6a6;
+  text-transform: uppercase;
+}
+
+.section-container .container-title h2 {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.section-container .date-form-container {
+  width: 100%;
+  height: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  border-bottom: 1px solid #a6a6a6;
+}
+
+.section-container .chart-container {
+  width: 75%;
+}
+
+.section-container .chart-container .count-box-container {
+  width: 100%;
+  height: auto;
+}
+
+.section-container .chart-container .chart-title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.section-container .chart-container .marker-chart-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.section-container .chart-container .image-chart-container {
+  width: 100%;
+}
+
+.section-container .chart-container .image-chart-container img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 460px) {
+  .section-container .date-form-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+  }
+}
+
 /* Pages / Views */
 /*@import "pages/registration"; */
 body h1 {
