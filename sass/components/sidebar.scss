@@ -1,8 +1,8 @@
 @import '../_variables.scss';
 
 .components-sidebar {
-	width: 100%;
-	height: auto;
+	width: 200px;
+	height: 100%;
 	background-color: $background-black;
 	color: $font-sidebar-grey;
 	fill: $font-sidebar-grey;
@@ -19,6 +19,9 @@
 		}
 		i {
 			font-size: 32px;
+			&:hover {
+				cursor: pointer;
+			}
 		}
 	}
 	ul{

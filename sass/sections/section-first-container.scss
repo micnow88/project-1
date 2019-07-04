@@ -4,6 +4,7 @@
 .section-container {
 	width: 95%;
 	height: auto;
+    margin-top: 10px;
 	border: 1px solid $font-grey;
 	border-radius: 2px;
 	box-shadow: 2px 2px 5px $font-grey;
@@ -15,6 +16,7 @@
     align-items: center;
     font-family: $main-font;
     color: $font-grey;
+    background-color: white;
     .container-title {
     	width: 100%;
     	border-bottom: 1px solid $font-grey;

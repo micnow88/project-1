@@ -1,7 +1,7 @@
-@import "../_variables";
+@import "../_variables.scss";
 
 .components-topbar {
-	width: 100%;
+	width: calc(100% - 200px);
 	height: 60px;
 	color: $font-grey;
     font-family: $main-font;
@@ -11,6 +11,7 @@
 	justify-content: flex-end;
 	align-content: center;
 	align-items: center;
+    background-color: white;
 	border-bottom: 1px solid $font-grey;
     .topbar-cell {
     	display: inline-flex;

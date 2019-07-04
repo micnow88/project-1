@@ -1,77 +1,24 @@
 /* Colors */
 /* Fonts Size */
 /* Fonts Family */
-.components-table {
-  width: 100%;
-  height: auto;
-  border-collapse: collapse;
-  font-family: "Open Sans", sans-serif;
-}
+.components-table { width: 100%; height: auto; border-collapse: collapse; font-family: "Open Sans", sans-serif; }
 
-.components-table tr:hover {
-  background-color: #f3f3f1;
-}
+.components-table tr:hover { background-color: #f5f5f2; }
 
-.components-table tr:hover .table-icons {
-  visibility: visible;
-}
+.components-table tr:hover .table-icons { visibility: visible; }
 
-.components-table tr td {
-  padding: 0 20px;
-  border: 1px solid #a6a6a6;
-  border-left: none;
-  border-right: none;
-}
+.components-table tr td { padding: 0 20px; border: 1px solid #a6a6a6; border-left: none; border-right: none; }
 
-.components-table tr td p {
-  font-weight: 700;
-}
+.components-table tr td p { font-weight: 700; }
 
-.components-table tr td a {
-  text-decoration: none;
-}
+.components-table tr td a { text-decoration: none; }
 
-.components-table tr td .table-icons {
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  visibility: hidden;
-}
+.components-table tr td .table-icons { display: inline-flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-content: center; align-items: center; visibility: hidden; }
 
-.components-table tr td .table-icons svg {
-  width: 15px;
-  height: 15px;
-  margin: 0 10px;
-  cursor: pointer;
-}
+.components-table tr td .table-icons svg { width: 15px; height: 15px; margin: 0 10px; cursor: pointer; }
 
-.components-table tr td .table-icons svg:hover {
-  fill: #f58220;
-}
+.components-table tr td .table-icons svg:hover { fill: #f58220; }
 
-@media (max-width: 550px) {
-  .components-table tr {
-    display: inline-flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    border-collapse: collapse;
-    border: 1px solid #a6a6a6;
-    border-left: none;
-    border-right: none;
-  }
-  .components-table tr td {
-    padding: 0 2px;
-    border: none;
-  }
-  .components-table tr td .table-icons {
-    visibility: visible;
-  }
-}
-
-/*# sourceMappingURL=table.css.map */
+@media (max-width: 550px) { .components-table tr { display: inline-flex; flex-direction: column; flex-wrap: nowrap; justify-content: center; align-content: center; align-items: center; border-collapse: collapse; border: 1px solid #a6a6a6; border-left: none; border-right: none; }
+  .components-table tr td { padding: 0 2px; border: none; }
+  .components-table tr td .table-icons { visibility: visible; } }

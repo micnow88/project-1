@@ -1,29 +1,6 @@
 /* Colors */
 /* Fonts Size */
 /* Fonts Family */
-.text-button {
-  width: auto;
-  height: auto;
-  margin: 30px 10px;
-  padding: 10px;
-  color: white;
-  background-color: #f58220;
-  border: 2px solid #f58220;
-  font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  border-radius: 5px;
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  cursor: pointer;
-}
+.text-button { width: auto; height: auto; margin: 30px 10px; padding: 10px; color: white; background-color: #f58220; border: 2px solid #f58220; font-size: 18px; font-family: "Open Sans", sans-serif; border-radius: 5px; display: inline-flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-content: center; align-items: center; cursor: pointer; }
 
-.text-button:hover {
-  color: #f58220;
-  background-color: #ffffff;
-}
-
-/*# sourceMappingURL=text-button.css.map */
+.text-button:hover { color: #f58220; background-color: #ffffff; }
